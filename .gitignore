@@ -1,8 +1,55 @@
+# ============================================
+# Python
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ============================================
+# Generated figures and results
+# ============================================
+# Ignore all pre-generated book figures
+fig/
+
+# Ignore your own generated figures from test.py
+src/*.png
+src/*.json
+
+# You can create a my_figures/ directory for your own work
+# and exclude it if you want
+#my_figures/
+results/
+
+# ============================================
+# System files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
 *~
+
+# ============================================
+# Project-specific
+# ============================================
 *.org
 *.pem
 *.pkl
-*.pyc
-.DS_Store
 loc.py
 src/ec2
+
+# Virtual environments (if you create one)
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
